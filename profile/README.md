@@ -59,10 +59,10 @@
 |부품|사진|
 |------|---|
 |Aurix TC275 보드|![Alt text](../main/image/TC275.png)|
-|Easy Module Shield V1|![Alt text](../image/easymodule.png)|
-|Arduino Motor Shield|![Alt text](../image/motor_shield.png)|
-|ToF 센서|![Alt text](../image/TOF.png)|
-|엔코더 DC 모터|![Alt text](../image/motor.png)|
+|Easy Module Shield V1|![Alt text](../main/image/easymodule.png)|
+|Arduino Motor Shield|![Alt text](../main/image/motor_shield.png)|
+|ToF 센서|![Alt text](../main/image/TOF.png)|
+|엔코더 DC 모터|![Alt text](../main/image/motor.png)|
 
 
 ### 개발 스택
@@ -71,15 +71,15 @@
 
 ||사진|
 |------|---|
-|MATLAB Simulink|![Alt text](../image/matlab.png)|
-|AURIX Development|![Alt text](../image/aurix.png)|
+|MATLAB Simulink|![Alt text](../main/image/matlab.png)|
+|AURIX Development|![Alt text](../main/image/aurix.png)|
 
 - 협업 툴
 
 ||사진|
 |------|---|
-|Github| ![Alt text](../image/github.png)|
-|Notion| ![Alt text](../image/notion.png)|
+|Github| ![Alt text](../main/image/github.png)|
+|Notion| ![Alt text](../main/image/notion.png)|
 
 
 ## 설계도 및 구성도
@@ -88,29 +88,29 @@
 
 ### 하드웨어 설계도 
 
-![Alt text](../image/HW_diagram.png)
+![Alt text](../main/image/HW_diagram.png)
 
 ### 회로도
-![Alt text](../image/Circuit.png)
+![Alt text](../main/image/Circuit.png)
 
 
 ## Flow Chart
 
 ### Close loop에서 PID 제어
-![Alt text](../image/Close_Loop_1.png)
+![Alt text](../main/image/Close_Loop_1.png)
 
 - PID gain을 업데이트 하고 엔코더를 통해 실제 측정값과 에러값을 추출, 피드백.
 
-![Alt text](../image/Close_Loop_2.png)
+![Alt text](../main/image/Close_Loop_2.png)
 - 목표 속도에 대한 PWM 값을 설정, 모터 구동 
 
-![Alt text](../image/PID_mode_transfer.png)
+![Alt text](../main/image/PID_mode_transfer.png)
 
 - Switch를 통해 Open loop에서 Closed loop으로 전환
 - Closed loop : PID activate
 - Open loop : PID dactivate
 
-![Alt text](../image/AEB.png)
+![Alt text](../main/image/AEB.png)
 
 - 레이저 센서에 의해 전방 20cm 이내에 장애물이 감지될 경우, 모터의 속도 50% 감소
 - 레이저 센서에 의해 전방 20cm 이내에 장애물이 감지될 경우, 부저가 0.5초 간격 작동.
