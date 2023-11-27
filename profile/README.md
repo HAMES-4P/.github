@@ -1,14 +1,3 @@
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
-
 
 ## 목차 
 - [목차](#목차)
@@ -23,21 +12,6 @@
   - [회로도](#회로도)
 - [Flow Chart](#flow-chart-1)
   - [Close loop에서 PID 제어](#close-loop에서-pid-제어)
-- [코드 설명](#코드-설명)
-  - [Library 설명](#library-설명)
-    - [1. AppScheduler](#1-appscheduler)
-      - [Driver\_Stm](#driver_stm)
-      - [App\_Scheduling](#app_scheduling)
-      - [ERU\_Interrupt](#eru_interrupt)
-    - [2. Drivers](#2-drivers)
-      - [GPT12](#gpt12)
-      - [ASCLIN](#asclin)
-    - [3. IO](#3-io)
-      - [Bluetooth](#bluetooth)
-      - [Buzzer](#buzzer)
-      - [Motor](#motor)
-      - [TOF sensor](#tof-sensor)
-      - [Ultrasonic](#ultrasonic)
 - [추가 설명](#추가-설명)
     - [기본 모듈 설정](#기본-모듈-설정)
     - [전달함수 추정 검증 및 Gain tuning](#전달함수-추정-검증-및-gain-tuning)
@@ -115,38 +89,6 @@
 - 레이저 센서에 의해 전방 20cm 이내에 장애물이 감지될 경우, 모터의 속도 50% 감소
 - 레이저 센서에 의해 전방 20cm 이내에 장애물이 감지될 경우, 부저가 0.5초 간격 작동.
 - 레이저 센서에 의해 전방 10cm 이내에 장애물이 감지될 경우, AEB가 작동하여 모터 정지.
-
-## 코드 설명
-
-### Library 설명
-
-#### 1. AppScheduler
-
-##### Driver_Stm
-
-##### App_Scheduling
-
-##### ERU_Interrupt
-
-#### 2. Drivers
-
-##### GPT12
-
-##### ASCLIN
-
-#### 3. IO
-
-##### Bluetooth
-
-##### Buzzer
-
-##### Motor
-
-##### TOF sensor
-
-##### Ultrasonic
-
-
 
 ## 추가 설명
 
