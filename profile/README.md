@@ -58,7 +58,7 @@
 
 |부품|사진|
 |------|---|
-|Aurix TC275 보드|![Alt text](../image/TC275.png)|
+|Aurix TC275 보드|![Alt text](../main/image/TC275.png)|
 |Easy Module Shield V1|![Alt text](../image/easymodule.png)|
 |Arduino Motor Shield|![Alt text](../image/motor_shield.png)|
 |ToF 센서|![Alt text](../image/TOF.png)|
